@@ -147,6 +147,3 @@ Feedstock Maintainers
 * [@LucasRochaAbraao](https://github.com/LucasRochaAbraao/)
 * [@nicoddemus](https://github.com/nicoddemus/)
 
-
-<!-- dummy commit to enable rerendering -->
-
