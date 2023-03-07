@@ -1,11 +1,11 @@
-About pytest-update-test-results
-================================
+About pytest-update-test-results-feedstock
+==========================================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/pytest-update-test-results-feedstock/blob/main/LICENSE.txt)
 
 Home: https://github.com/ESSS/pytest-update-test-results
 
 Package license: MIT
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/pytest-update-test-results-feedstock/blob/main/LICENSE.txt)
 
 Summary: Pytest plugin to update test results on a jUnit XML from previous run.
 
