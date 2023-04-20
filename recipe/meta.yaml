@@ -1,5 +1,5 @@
 {% set name = "pytest-update-test-results" %}
-{% set version = "0.2.0" %}
+{% set version = "0.3.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://github.com/ESSS/{{ name }}/archive/refs/tags/{{ version }}.tar.gz
-  sha256: 05074c1daa13d1de3df5cbbef84ff52875cef3010a6dba3190ebfc505622bea1
+  sha256: 93f8349335a5a779e550dba1bebc39f08d23f011d658beb27bd0874be1bc6186
 
 build:
   number: 0
