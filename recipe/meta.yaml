@@ -10,7 +10,7 @@ source:
   sha256: 93f8349335a5a779e550dba1bebc39f08d23f011d658beb27bd0874be1bc6186
 
 build:
-  number: 0
+  number: 1
   noarch: python
   script_env:
     - SETUPTOOLS_SCM_PRETEND_VERSION={{ version }}
@@ -18,16 +18,18 @@ build:
 
 requirements:
   host:
-    - python >=3.6
+    - python {{ python_min }}
     - pip
     - setuptools_scm
+    - setuptools
   run:
-    - python >=3.6
+    - python >={{ python_min }}
     - pytest
 
 test:
   requires:
     - pytest
+    - python {{ python_min }}
   imports:
     - pytest_update_test_results
   commands:
